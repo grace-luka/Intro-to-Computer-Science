@@ -1,5 +1,5 @@
 #   Grace Luka
-#  ​ CSCI 102 – Section B
+#   CSCI 102 - Section B
 #   Assessment 12C
 #   References:
 #   Time: 45 minutes
@@ -16,3 +16,9 @@ def load_file(filename):
             lines.append(i)
     return lines
 
+# Function 2 ---------------------------
+
+def update_string(string1, string2, num):
+    #string1 = list(string1)
+    new_string = string1[:num] + string2 + string1[num+1:]
+    print(new_string)
