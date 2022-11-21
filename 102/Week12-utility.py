@@ -22,3 +22,12 @@ def update_string(string1, string2, num):
     #string1 = list(string1)
     new_string = string1[:num] + string2 + string1[num+1:]
     print(new_string)
+
+# Function 3 ---------------------------
+
+def find_word_count(mylist, string):
+    count = 0
+    for i in mylist:
+        var = i.count(string)
+        count += var
+    print(count)
