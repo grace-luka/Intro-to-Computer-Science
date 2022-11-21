@@ -31,3 +31,18 @@ def find_word_count(mylist, string):
         var = i.count(string)
         count += var
     print(count)
+
+# Function 4 ---------------------------
+
+def score_finder(players, scores, string):
+    string = string[0].upper() + string[1:]
+    for i in players:
+        i = i.lower()
+        #print(i)
+    if string not in players:
+        #print(string)
+        print('OUTPUT player not found')
+    else:
+        index = players.index(string)
+        #print(index)
+        print(f'OUTPUT {string} got a score of {scores[index]}')
