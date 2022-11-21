@@ -46,3 +46,9 @@ def score_finder(players, scores, string):
         index = players.index(string)
         #print(index)
         print(f'OUTPUT {string} got a score of {scores[index]}')
+
+# Function 5 ---------------------------
+
+def union(scores, players2):
+    final_list = scores + players2
+    print(final_list)
