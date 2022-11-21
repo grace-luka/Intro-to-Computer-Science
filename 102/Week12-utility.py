@@ -76,3 +76,19 @@ def not_in(players2, players):
         if i not in players:
             final_list.append(i)
     return final_list
+
+
+# Function 8 ---------------------------
+#2 3 5 7
+def is_prime(num):
+    if num == 1:
+        return False
+    elif num == 2:
+        return True
+    elif num % 2 == 0:
+        return False
+    for i in range(3,(int(num ** .5)) +1):
+        if num % i == 0:
+            #print(i, num//i)
+            return False
+    return True 
