@@ -58,3 +58,12 @@ def union(scores, players2):
         if j not in end_list:
             end_list.append(j)
     return end_list
+
+# Function 6 ---------------------------
+
+def intersect(players2, players):
+    endlist = []
+    for i in players2:
+        if i in players:
+            endlist.append(i)
+    print(endlist)
