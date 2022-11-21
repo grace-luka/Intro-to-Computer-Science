@@ -50,5 +50,11 @@ def score_finder(players, scores, string):
 # Function 5 ---------------------------
 
 def union(scores, players2):
-    final_list = scores + players2
-    print(final_list)
+    end_list = []
+    for i in scores:
+        if i not in players2:
+            end_list.append(i)
+    for j in players2:
+        if j not in end_list:
+            end_list.append(j)
+    return end_list
