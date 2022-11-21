@@ -78,7 +78,7 @@ def cities_in_range(filename, minimum, maximum):
 def valid_csv(filename):
     pass # placeholder line - delete before writing code here
 
-'''
+
 # Step 4: Tying it all together
 if __name__ == "__main__":
     print(f'Here comes the sun!')
@@ -114,7 +114,7 @@ if __name__ == "__main__":
     else:
         print(f'Please enter a valid number')
         
-'''
+
 
 
 
