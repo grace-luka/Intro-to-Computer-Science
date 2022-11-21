@@ -67,3 +67,12 @@ def intersect(players2, players):
         if i in players:
             endlist.append(i)
     print(endlist)
+
+# Function 7 ---------------------------
+
+def not_in(players2, players):
+    final_list = []
+    for i in players2:
+        if i not in players:
+            final_list.append(i)
+    return final_list
